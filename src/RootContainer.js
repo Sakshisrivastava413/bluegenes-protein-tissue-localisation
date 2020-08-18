@@ -146,7 +146,6 @@ const RootContainer = ({ serviceUrl, entity }) => {
 
 	return (
 		<div className="rootContainer">
-			<span className="chart-title">Gene Tissue Localisation Network</span>
 			{loading ? (
 				<Loading />
 			) : (
